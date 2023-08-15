@@ -26,14 +26,12 @@ public class WebSecurityConfigurer {
   private final String adminContextPath;
 
   public WebSecurityConfigurer(AdminServerProperties adminServerProperties) {
-    System.out.println(">>> vovo");
     this.adminContextPath = adminServerProperties.getContextPath();
   }
 
   @Bean
   public SecurityFilterChain filterChain(HttpSecurity httpSecurity) throws Exception {
 
-      System.out.println(">>> oppo");
     SavedRequestAwareAuthenticationSuccessHandler successHandler =
         new SavedRequestAwareAuthenticationSuccessHandler();
     successHandler.setTargetUrlParameter("redirectTo");

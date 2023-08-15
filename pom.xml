@@ -10,6 +10,9 @@
 
     <name>RuoYi-Cloud-Keer</name>
     <url>https://gitee.com/keer/ruoyi-cloud-keer</url>
+    <modules>
+        <module>ruoyi-visual</module>
+    </modules>
     <description>RuoYi-Cloud-Keer 微服务系统</description>
 
     <packaging>pom</packaging>
@@ -78,10 +81,16 @@
             <properties>
                 <!-- 环境标识，需要与配置文件的名称相对应 -->
                 <profiles.active>dev</profiles.active>
-                <nacos.server>127.0.0.1:8848</nacos.server>
-                <nacos.discovery.group>DEFAULT_GROUP</nacos.discovery.group>
-                <nacos.config.group>DEFAULT_GROUP</nacos.config.group>
-                <logstash.address>127.0.0.1:4560</logstash.address>
+
+               <!-- <nacos.server>127.0.0.1:8848</nacos.server> -->
+               <!-- <nacos.discovery.group>DEFAULT_GROUP</nacos.discovery.group> -->
+               <!-- <nacos.config.group>DEFAULT_GROUP</nacos.config.group> -->
+               <!-- <logstash.address>127.0.0.1:4560</logstash.address> -->
+
+                <nacos.server>81.71.48.29:8848</nacos.server>
+                <nacos.discovery.group>RUOYI_CLOUD_GROUP</nacos.discovery.group>
+                <nacos.config.group>RUOYI_CLOUD_GROUP</nacos.config.group>
+                <logstash.address>81.71.48.29:4560</logstash.address>
             </properties>
             <activation>
                 <!-- 默认环境 -->
@@ -92,15 +101,21 @@
             <id>prod</id>
             <properties>
                 <profiles.active>prod</profiles.active>
-                <nacos.server>127.0.0.1:8848</nacos.server>
-                <nacos.discovery.group>DEFAULT_GROUP</nacos.discovery.group>
-                <nacos.config.group>DEFAULT_GROUP</nacos.config.group>
-                <logstash.address>127.0.0.1:4560</logstash.address>
+
+               <!-- <nacos.server>127.0.0.1:8848</nacos.server> -->
+               <!-- <nacos.discovery.group>DEFAULT_GROUP</nacos.discovery.group> -->
+               <!-- <nacos.config.group>DEFAULT_GROUP</nacos.config.group> -->
+               <!-- <logstash.address>127.0.0.1:4560</logstash.address> -->
+
+                <nacos.server>81.71.48.29:8848</nacos.server>
+                <nacos.discovery.group>RUOYI_CLOUD_GROUP</nacos.discovery.group>
+                <nacos.config.group>RUOYI_CLOUD_GROUP</nacos.config.group>
+                <logstash.address>81.71.48.29:4560</logstash.address>
             </properties>
         </profile>
     </profiles>
 
-    <!-- 依赖声明 -->
+   <!-- 依赖声明 -->
     <dependencyManagement>
         <dependencies>
 

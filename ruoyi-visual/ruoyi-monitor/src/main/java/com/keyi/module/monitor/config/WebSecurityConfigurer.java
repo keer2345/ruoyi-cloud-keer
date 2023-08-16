@@ -23,6 +23,7 @@ import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 @Configuration
 @EnableWebSecurity
 public class WebSecurityConfigurer {
+
   private final String adminContextPath;
 
   public WebSecurityConfigurer(AdminServerProperties adminServerProperties) {

@@ -9,6 +9,7 @@
   <modules>
     <module>ruoyi-visual</module>
     <module>ruoyi-common</module>
+    <module>ruoyi-example</module>
   </modules>
   <description>RuoYi-Cloud-Keer 微服务系统</description>
   <packaging>pom</packaging>

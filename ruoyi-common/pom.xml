@@ -12,5 +12,7 @@
   <modules>
     <module>ruoyi-common-bom</module>
     <module>ruoyi-common-alibaba-bom</module>
+      <module>ruoyi-common-web</module>
+    <module>ruoyi-common-core</module>
   </modules>
 </project>

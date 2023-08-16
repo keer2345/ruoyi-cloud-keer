@@ -14,5 +14,6 @@
     <module>ruoyi-common-alibaba-bom</module>
       <module>ruoyi-common-web</module>
     <module>ruoyi-common-core</module>
+      <module>ruoyi-common-mybatis</module>
   </modules>
 </project>

@@ -24,6 +24,11 @@
                 <artifactId>ruoyi-common-web</artifactId>
                 <version>${revision}</version>
             </dependency>
+            <dependency>
+                <groupId>com.keyi</groupId>
+                <artifactId>ruoyi-common-mybatis</artifactId>
+                <version>${revision}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 </project>

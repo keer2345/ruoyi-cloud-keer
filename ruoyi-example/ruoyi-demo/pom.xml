@@ -33,6 +33,10 @@
             <artifactId>ruoyi-common-web</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>com.keyi</groupId>
+            <artifactId>ruoyi-common-mybatis</artifactId>
+        </dependency>
         <!-- todo -->
 
         <dependency>

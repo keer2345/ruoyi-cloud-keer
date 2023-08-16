@@ -9,6 +9,7 @@
 | ruoyi-common  | ruoyi-common-alibaba-bom | 100% |    |
 |               | ruoyi-common-bom         | 5%   |    |
 |               | ruoyi-common-core        | 5%   |    |
+|               | ruoyi-common-mybatis     | 1%   |    |
 |               | ruoyi-common-web         | 5%   |    |
 | ruoyi-visual  | ruoyi-monitor            | 100% |    |
 | ruoyi-example | ruoyi-demo               | 1%   |    |

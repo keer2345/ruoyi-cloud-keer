@@ -4,8 +4,6 @@ import com.keyi.demo.domain.TestDemo;
 import com.keyi.demo.domain.vo.TestDemoVo;
 import com.keyi.demo.mapper.TestDemoMapper;
 import com.keyi.ommon.mybatis.core.dao.BaseDao;
-import lombok.NoArgsConstructor;
-import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 

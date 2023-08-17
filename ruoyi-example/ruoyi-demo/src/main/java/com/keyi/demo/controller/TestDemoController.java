@@ -26,8 +26,6 @@ public class TestDemoController {
 
   @GetMapping("{id}")
   public R<TestDemoVo> getInfo(@NotNull(message = "主键不能为空") @PathVariable("id") Long id) {
-    TestDemoVo vo = testDemoService.queryById(id);
-    log.info("aaa {}", id);
-    return R.ok(vo);
+    return R.ok(testDemoService.queryById(id));
   }
 }

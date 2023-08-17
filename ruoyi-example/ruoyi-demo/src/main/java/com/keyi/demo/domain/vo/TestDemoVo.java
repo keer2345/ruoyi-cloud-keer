@@ -1,5 +1,7 @@
 package com.keyi.demo.domain.vo;
 
+import com.keyi.demo.domain.TestDemo;
+import io.github.linpeilie.annotations.AutoMapper;
 import java.io.Serial;
 import java.util.Date;
 import lombok.Data;
@@ -12,6 +14,7 @@ import lombok.Data;
  */
 // todo
 @Data
+@AutoMapper(target = TestDemo.class)
 public class TestDemoVo {
 
   @Serial private static final long serialVersionUID = 1L;

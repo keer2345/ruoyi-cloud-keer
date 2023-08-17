@@ -12,6 +12,7 @@ import org.springframework.boot.context.metrics.buffering.BufferingApplicationSt
  */
 @SpringBootApplication
 public class RuoYiDemoApplication {
+
   public static void main(String[] args) {
     SpringApplication application = new SpringApplication(RuoYiDemoApplication.class);
     application.setApplicationStartup(new BufferingApplicationStartup(2048));

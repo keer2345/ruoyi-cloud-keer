@@ -18,6 +18,7 @@ public class R<T> implements Serializable {
 
   /** 成功 */
   public static final int SUCCESS = HttpStatus.HTTP_OK;
+
   /** 失败 */
   public static final int FAIL = HttpStatus.HTTP_INTERNAL_ERROR;
 

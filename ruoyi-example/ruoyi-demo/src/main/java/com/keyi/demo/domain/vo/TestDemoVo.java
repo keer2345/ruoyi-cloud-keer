@@ -1,9 +1,8 @@
 package com.keyi.demo.domain.vo;
 
-import lombok.Data;
-
 import java.io.Serial;
 import java.util.Date;
+import lombok.Data;
 
 /**
  * 测试单表视图对象 test_demo

@@ -3,13 +3,12 @@ package com.keyi.ommon.mybatis.core.domain;
 import com.baomidou.mybatisplus.annotation.*;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonInclude;
-import lombok.Data;
-
 import java.io.Serial;
 import java.io.Serializable;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
+import lombok.Data;
 
 /**
  * Entity基类
@@ -25,6 +24,7 @@ public class BaseEntity implements Serializable {
   /** 主键 */
   @TableId(type = IdType.ASSIGN_UUID) // 如果使用 IdType.ASSIGN_UUID 策略，则会自动生成不含中划线的 UUID
   private String id;
+
   /** 搜索值 */
   @JsonIgnore
   @TableField(exist = false)
@@ -55,9 +55,7 @@ public class BaseEntity implements Serializable {
   /** 删除标识（0：正常；1：已删除） */
   @TableLogic private String delFlag;
 
-  /**
-   * 请求参数
-   */
+  /** 请求参数 */
   @JsonInclude(JsonInclude.Include.NON_EMPTY)
   @TableField(exist = false)
   private Map<String, Object> params = new HashMap<>();

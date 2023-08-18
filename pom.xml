@@ -11,6 +11,8 @@
         <module>ruoyi-visual</module>
         <module>ruoyi-common</module>
         <module>ruoyi-example</module>
+        <module>ruoyi-api</module>
+        <module>ruoyi-auth</module>
     </modules>
     <description>RuoYi-Cloud-Keer 微服务系统</description>
     <packaging>pom</packaging>
@@ -151,15 +153,13 @@
                 <scope>import</scope>
             </dependency>
             <!-- api 的依赖配置-->
-            <!-- todo
-                                                                            <dependency>
-                                                                                <groupId>org.dromara</groupId>
-                                                                                <artifactId>ruoyi-api-bom</artifactId>
-                                                                                <version>${revision}</version>
-                                                                                <type>pom</type>
-                                                                                <scope>import</scope>
-                                                                            </dependency>
-                                                                -->
+            <dependency>
+                <groupId>com.keyi</groupId>
+                <artifactId>ruoyi-api-bom</artifactId>
+                <version>${revision}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
             <dependency>
                 <groupId>cn.dev33</groupId>
                 <artifactId>sa-token-core</artifactId>

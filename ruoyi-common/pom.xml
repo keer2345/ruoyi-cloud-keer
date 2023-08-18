@@ -15,5 +15,6 @@
       <module>ruoyi-common-web</module>
     <module>ruoyi-common-core</module>
       <module>ruoyi-common-mybatis</module>
+      <module>ruoyi-common-satoken</module>
   </modules>
 </project>

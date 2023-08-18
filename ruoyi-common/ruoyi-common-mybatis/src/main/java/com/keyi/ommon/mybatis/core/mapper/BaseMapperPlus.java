@@ -26,6 +26,7 @@ import org.apache.ibatis.logging.LogFactory;
  * @author keer
  * @date 2023-08-17
  */
+@SuppressWarnings("unchecked")
 public interface BaseMapperPlus<T, V> extends BaseMapper<T> {
 
   Log log = LogFactory.getLog(BaseMapperPlus.class);

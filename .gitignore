@@ -32,3 +32,14 @@ build/
 ### VS Code ###
 .vscode/
 
+######################################################################
+# Others
+*.log
+*.xml.versionsBackup
+*.swp
+
+!*/build/*.java
+!*/build/*.html
+!*/build/*.xml
+
+.flattened-pom.xml

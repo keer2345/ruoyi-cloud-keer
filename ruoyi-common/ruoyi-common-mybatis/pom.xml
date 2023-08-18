@@ -34,10 +34,10 @@
         </dependency>
 
         <!-- sql性能分析插件 -->
-        <!-- <dependency> -->
-        <!--     <groupId>p6spy</groupId> -->
-        <!--     <artifactId>p6spy</artifactId> -->
-        <!-- </dependency> -->
+        <dependency>
+            <groupId>p6spy</groupId>
+            <artifactId>p6spy</artifactId>
+        </dependency>
 
         <!-- Dynamic DataSource -->
         <dependency>
